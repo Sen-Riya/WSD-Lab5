@@ -14,6 +14,9 @@
                     html, body {
                         height: 100%;
                         margin: 0;
+                        font-family: Arial, sans-serif;
+                        background-color: #f9f9f9;
+                        color: #333;
                     }
 
                     body {
@@ -23,10 +26,14 @@
 
                     .container {
                         flex: 1;
+                        padding: 20px;
+                        background-color: #ffffff;
+                        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                        margin: 20px;
                     }
 
                     header, footer {
-                        background-color: #333;
+                        background-color: #4CAF50;
                         color: white;
                         padding: 10px 0;
                         text-align: center;
@@ -36,20 +43,37 @@
                         margin: 0;
                     }
 
+                    h2 {
+                        color: #4CAF50;
+                        border-bottom: 2px solid #4CAF50;
+                        padding-bottom: 10px;
+                        margin-bottom: 20px;
+                    }
+
                     table {
                         width: 100%;
                         border-collapse: collapse;
                         margin-bottom: 20px;
+                        background-color: #fdfdfd;
                     }
 
                     th, td {
-                        border: 1px solid black;
-                        padding: 8px;
+                        border: 1px solid #ddd;
+                        padding: 12px;
                         text-align: left;
                     }
 
                     th {
+                        background-color: #4CAF50;
+                        color: white;
+                    }
+
+                    tr:nth-child(even) {
                         background-color: #f2f2f2;
+                    }
+
+                    tr:hover {
+                        background-color: #f1f1f1;
                     }
 
                     .enroll-button {
@@ -57,14 +81,15 @@
                         padding: 10px 20px;
                         margin: 5px;
                         color: white;
-                        background-color: #007bff;
+                        background-color: #2196F3;
                         text-decoration: none;
                         border-radius: 5px;
                         text-align: center;
+                        transition: background-color 0.3s ease;
                     }
 
                     .enroll-button:hover {
-                        background-color: #0056b3;
+                        background-color: #1976D2;
                     }
                 </style>
             </head>
