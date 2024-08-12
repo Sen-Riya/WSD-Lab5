@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="courses.xsl" type="text/xsl" ?>
+<courses
+    xmlns="http://www.example.com/course"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.example.com/course courses.xsd"
+>
+
+    <course>
+        <title>Introduction to Programming</title>
+        <instructor>Dr.Maruthi</instructor>
+        <duration>10</duration> 
+        <availability>Available</availability>
+    </course>
+    <course>
+        <title>Advanced Mathematics</title>
+        <instructor>Dr.Abeda</instructor>
+        <duration>15</duration>
+        <availability>Not Available</availability>
+    </course>
+    <course>
+        <title>Data Science Basics</title>
+        <instructor>Dr.Rekha</instructor>
+        <duration>12</duration>
+        <availability>Available</availability>
+    </course>
+</courses>
